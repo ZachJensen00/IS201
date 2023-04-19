@@ -1,0 +1,35 @@
+body {  /*this CSS makes the font, font size, color, and background uniform*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(203, 199, 199);
+}
+
+li {    /*this CSS make the li subunits a certain fontsize, style, and weight */
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {     /* this CSS makes the links are a certain color and makes it so they aren't underlined*/
+    color: rgb(0, 191, 255);
+    text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}   /* these two CSS make it so that links are underlined when you hover and turn a different color once you've visited the page*/
+a:visited {color: rgb(123, 123, 222);}
+
+.resumelistheading {    /* this CSS makes the list headings bold and not italicized*/
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.underline {text-decoration: underline;}    /*these three CSS create options to use within the code to make them bold, underlined, or justified*/
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.name {font-size: 30px;}
+.direto {text-align: right; float: right;}
+.left {text-align: left; float: left;}
+.jobs {font-size: 18px;}
+.title {font-size: 16px; font-weight: normal; font-style: italic;}}
